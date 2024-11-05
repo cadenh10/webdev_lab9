@@ -1,9 +1,9 @@
 function init(){
   const name = "Caden Ho";
   
-  const alertMeDiv = document.getElementById("alertMe");
-  const textInput = document.getElementById("textInput");
-  const displayText = document.getElementById("displayText");
+  const alertMeDiv = document.getElementById("entrybutton");
+  const textInput = document.getElementById("entryinput");
+  const displayText = document.getElementById("textoutput");
   
   alertMeDiv.addEventListener("click, function() {
 	  const inputValue = textInput.value;
