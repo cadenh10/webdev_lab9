@@ -5,7 +5,7 @@ function init(){
   const textInput = document.getElementById("entryinput");
   const displayText = document.getElementById("textoutput");
   
-  alertMeDiv.addEventListener("click, function() {
+  alertMeDiv.addEventListener("click", function() {
 	  const inputValue = textInput.value;
 	  alert(`${name}: ${inputValue}`);
 	  displayText.textContent = inputValue;
